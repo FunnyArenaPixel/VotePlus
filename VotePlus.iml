@@ -7,7 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Nukkit PM1E 1.19.50.2468" level="project" />
-    <orderEntry type="library" name="VotePlusV10" level="project" />
   </component>
 </module>

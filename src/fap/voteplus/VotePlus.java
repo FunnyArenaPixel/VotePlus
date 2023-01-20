@@ -26,7 +26,7 @@ public class VotePlus extends PluginBase implements Listener {
 
     public static Executor executor = Executors.newWorkStealingPool();
 
-    public fap.voteplus.VoteData voteData;
+    public VoteData voteData;
     public VoteCdTask voteCdTask;
 
     public static String[] modes = new String[]{

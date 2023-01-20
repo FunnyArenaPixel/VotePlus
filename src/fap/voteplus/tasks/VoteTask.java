@@ -9,11 +9,11 @@ import fap.voteplus.VotePlus;
 
 public class VoteTask extends Thread {
 
-    private final fap.voteplus.VotePlus votePlus;
+    private final VotePlus votePlus;
     private final Server server = Server.getInstance();
     private DummyBossBar dummyBossBar;
 
-    public VoteTask(fap.voteplus.VotePlus votePlus) {
+    public VoteTask(VotePlus votePlus) {
         this.votePlus = votePlus;
     }
 

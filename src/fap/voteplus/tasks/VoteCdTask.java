@@ -4,7 +4,7 @@ import fap.voteplus.VotePlus;
 
 public class VoteCdTask extends Thread {
 
-    private final fap.voteplus.VotePlus votePlus;
+    private final VotePlus votePlus;
 
     public VoteCdTask(VotePlus votePlus) {
         this.votePlus = votePlus;

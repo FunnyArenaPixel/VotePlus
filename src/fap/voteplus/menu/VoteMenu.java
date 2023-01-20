@@ -4,12 +4,12 @@ import cn.nukkit.Player;
 import cn.nukkit.Server;
 import cn.nukkit.form.element.ElementButton;
 import cn.nukkit.form.window.FormWindowSimple;
-import fap.voteplus.utils.MyForm;
 import fap.voteplus.VotePlus;
+import fap.voteplus.utils.MyForm;
 
 public class VoteMenu {
 
-    private final fap.voteplus.VotePlus votePlus;
+    private final VotePlus votePlus;
 
     public VoteMenu(VotePlus votePlus) {
         this.votePlus = votePlus;
