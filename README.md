@@ -1,0 +1,2 @@
+# VotePlus
+ A vote plugin
