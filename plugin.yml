@@ -1,0 +1,16 @@
+name: VotePlus
+main: fap.voteplus.VotePlus
+version: "1.0.0"
+author: FillAmeaPixel Network
+api: ["1.0.0"]
+commands:
+  vote:
+    description: 投票功能
+  ban:
+    description: VotePlus Ban
+  addmoney:
+    description: VotePlus MoneyAPI
+  reducemoney:
+    description: VotePlus MoneyAPI
+  getmoney:
+    description: VotePlus MoneyAPI
