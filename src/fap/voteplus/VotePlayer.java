@@ -35,11 +35,11 @@ public class VotePlayer {
     }
 
     public static List<VotePlayer> winners() {
-        return players.stream().filter(vp -> vp.mode == 0).toList();
+        return players.stream().filter(vp -> vp.mode == 1).toList();
     }
 
     public static List<VotePlayer> lost() {
-        return players.stream().filter(vp -> vp.mode == 1).toList();
+        return players.stream().filter(vp -> vp.mode == 0).toList();
     }
 
     private final Player player;

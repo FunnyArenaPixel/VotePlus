@@ -89,7 +89,7 @@ public class VotePlusMain extends PluginBase implements Listener {
                     config.getInt("未投票玩家默认结果")
             );
             // 发起人加入同意
-            VotePlayer.add(originator, 0);
+            VotePlayer.add(originator, 1);
             // 投票倒计时
             getServer().getScheduler().scheduleRepeatingTask(new VoteTask(
                     this,
@@ -123,7 +123,7 @@ public class VotePlusMain extends PluginBase implements Listener {
 
     public void disCmd() {
         String cmdK;
-        if (voteData.result == 0) {
+        if (voteData.result == 1) {
             cmdK = "同意";
         } else {
             cmdK = "反对";
