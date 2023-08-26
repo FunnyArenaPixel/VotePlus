@@ -1,7 +1,7 @@
 name: VotePlus
-main: fap.voteplus.VotePlus
+main: fap.voteplus.VotePlusMain
 version: "1.0.0"
-author: FillAmeaPixel Network
+author: FAP Network
 api: ["1.0.0"]
 commands:
   vote:

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VotePlus_java17">
+    <output-path>$PROJECT_DIR$/../FAP_Server/plugins</output-path>
+    <root id="archive" name="VotePlus_java17.jar">
+      <element id="module-output" name="VotePlus" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

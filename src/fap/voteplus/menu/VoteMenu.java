@@ -4,16 +4,16 @@ import cn.nukkit.Player;
 import cn.nukkit.Server;
 import cn.nukkit.form.element.ElementButton;
 import cn.nukkit.form.window.FormWindowSimple;
-import fap.voteplus.VotePlus;
+import fap.voteplus.VotePlusMain;
 import fap.voteplus.utils.MyForm;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+@AllArgsConstructor
+@Data
 public class VoteMenu {
 
-    private final VotePlus votePlus;
-
-    public VoteMenu(VotePlus votePlus) {
-        this.votePlus = votePlus;
-    }
+    private final VotePlusMain votePlusMain;
 
     public void openMenu(Player player, String reason) {
         FormWindowSimple f = new FormWindowSimple(
@@ -23,7 +23,7 @@ public class VoteMenu {
         );
 
         Server.getInstance().getOnlinePlayers().values().forEach(
-                player1 -> f.addButton(new ElementButton(player1.getName()))
+                target -> f.addButton(new ElementButton(target.getName()))
         );
 
         MyForm myForm = new MyForm(player, f) {
